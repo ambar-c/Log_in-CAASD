@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #004ba8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inicio-contenedor {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    height: 80%;
+    padding: 30px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #004ba8;
+}
+
+.info-usuario {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.info-usuario input {
+    width: 25%;
+    /* border-radius: 4px; */
+    font-size: 17px;
+    padding: 10px;
+    
+}
+
+.info-usuario {
+    font-size: 10px;
+    color: #004ba8;
+    text-decoration: none;
+    right: 10px;
+    top: 12px;
+    align-items: flex-end;
+}
+
+.container-recuperar-password {
+    margin: 0 auto;
+}
+
+.txt-password-recuperar{
+    margin: 20px 0 0px 150px;
+    color: #004ba8;
+    font-size: 14px;
+}
+
+form{
+    width: 100%;
+}
+
+.btn {
+    background-color: #004ba8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 27%;
+}
+
+.btn:hover {
+    background-color: #00397a;
+}
+
+.footer {
+    margin-top: 100px;
+    font-size: 12px;
+    color: #777;
+}
+
+hr { /*es la linea debajo de la imagen*/
+    width: 450px;
+    background-color: #777;
+
+}
